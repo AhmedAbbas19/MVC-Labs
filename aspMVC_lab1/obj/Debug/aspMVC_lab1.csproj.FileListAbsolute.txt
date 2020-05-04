@@ -67,3 +67,10 @@ C:\Users\Ahmed\source\repos\aspMVC_lab1\aspMVC_lab1\obj\Debug\aspMVC_lab1.csproj
 C:\Users\Ahmed\source\repos\aspMVC_lab1\aspMVC_lab1\obj\Debug\aspMVC_lab1.csproj.CopyComplete
 C:\Users\Ahmed\source\repos\aspMVC_lab1\aspMVC_lab1\obj\Debug\aspMVC_lab1.dll
 C:\Users\Ahmed\source\repos\aspMVC_lab1\aspMVC_lab1\obj\Debug\aspMVC_lab1.pdb
+C:\Users\Ahmed\source\repos\aspMVC_lab1\aspMVC_lab1\bin\EntityFramework.dll
+C:\Users\Ahmed\source\repos\aspMVC_lab1\aspMVC_lab1\bin\EntityFramework.SqlServer.dll
+C:\Users\Ahmed\source\repos\aspMVC_lab1\aspMVC_lab1\bin\EntityFramework.xml
+C:\Users\Ahmed\source\repos\aspMVC_lab1\aspMVC_lab1\bin\EntityFramework.SqlServer.xml
+C:\Users\Ahmed\source\repos\aspMVC_lab1\aspMVC_lab1\obj\Debug\aspMVC_lab1.Migrations.Initial.resources
+C:\Users\Ahmed\source\repos\aspMVC_lab1\aspMVC_lab1\obj\Debug\aspMVC_lab1.csproj.GenerateResource.cache
+C:\Users\Ahmed\source\repos\aspMVC_lab1\aspMVC_lab1\obj\Debug\aspMVC_lab1.Migrations.update.resources

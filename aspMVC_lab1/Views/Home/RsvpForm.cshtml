@@ -4,23 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <style>
+        .input-validation-error {
+            border: 1px solid red;
+        }
+    </style>
 </head>
 <body>
 
     <form method="post">
         Name:
-        <input type="text" name="Name" /><br />
+        @Html.TextBox("Name")
         Email:
-        <input type="email" name="Email" /><br />
-        Phone:
-        <input type="text" name="Phone" /><br />
+        @Html.TextBox("Email")
+        Salary:
+        @Html.TextBox("Salary")
 
-        Will you attend?
-        <select name="question">
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
-        </select>
-        <input type="submit" value="Submit"/>
+        Choose you Gender?
+        Male:   @Html.RadioButton("Gender", true)
+        Female: @Html.RadioButton("Gender", false)
+        <input type="submit" value="Submit" />
     </form>
 
 </body>

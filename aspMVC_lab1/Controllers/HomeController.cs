@@ -1,4 +1,6 @@
-﻿using System;
+﻿using aspMVC_lab1.Managers;
+using aspMVC_lab1.Models.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -7,11 +9,6 @@ using System.Web.Mvc;
 namespace aspMVC_lab1.Controllers
 {
 
-    public class User {
-        public string Name { get; set; }
-        public string Email { get; set; }
-        public string Phone { get; set; }
-    }
 
     public class HomeController : Controller
     {
@@ -28,12 +25,15 @@ namespace aspMVC_lab1.Controllers
         }
 
         [HttpPost]
-        public ViewResult RsvpForm(User user) {
-            if (user != null && user.Name != null) {
-                ViewData["name"] = user.Name;
-                return View("Welcome");
+        public ViewResult RsvpForm(Employee employee) {
+            var M = ModelState;
+            if (ModelState.IsValid) {
+                EmployeeManager em = new EmployeeManager();
+                var x = em.Add(employee);
+
+                return View("Welcome", employee);
             }
-                return View();
+            return View(employee);
         }
     }
 }

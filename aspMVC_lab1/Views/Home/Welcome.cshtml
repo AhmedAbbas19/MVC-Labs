@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@Model Employee
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,7 +7,7 @@
     <title>Welcome</title>
 </head>
 <body>
-    <h1>Thank you, @ViewData["name"]</h1>
-    <p>It's great to see you!</p>
+    <h1>Thank you, @Model.Name</h1>
+    <p>Your Information added to the database!</p>
 </body>
 </html>
