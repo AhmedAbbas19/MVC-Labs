@@ -17,10 +17,12 @@ namespace aspMVC_lab1.Models.Entities
         public string Name { get; set; }
 
         [Required]
+        [EmailAddress]
         public string Email { get; set; }
         
-        public bool Gender { get; set; }
-        
+        public Gender Gender { get; set; }
+
+        [Range(1000,15000)]
         public int Salary { get; set; }
     }
 }

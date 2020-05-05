@@ -74,3 +74,4 @@ C:\Users\Ahmed\source\repos\aspMVC_lab1\aspMVC_lab1\bin\EntityFramework.SqlServe
 C:\Users\Ahmed\source\repos\aspMVC_lab1\aspMVC_lab1\obj\Debug\aspMVC_lab1.Migrations.Initial.resources
 C:\Users\Ahmed\source\repos\aspMVC_lab1\aspMVC_lab1\obj\Debug\aspMVC_lab1.csproj.GenerateResource.cache
 C:\Users\Ahmed\source\repos\aspMVC_lab1\aspMVC_lab1\obj\Debug\aspMVC_lab1.Migrations.update.resources
+C:\Users\Ahmed\source\repos\aspMVC_lab1\aspMVC_lab1\obj\Debug\aspMVC_lab1.Migrations.addGender.resources

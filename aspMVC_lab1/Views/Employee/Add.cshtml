@@ -1,0 +1,48 @@
+﻿@model Employee
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .input-validation-error {
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+
+    <form method="post">
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Name)
+            @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Name, null, new { @class = "text-danger" })
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Email)
+            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Email, null, new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Salary)
+            @Html.TextBoxFor(m => m.Salary, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Salary, null, new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Gender)
+            @Html.EnumDropDownListFor(m => m.Gender, "Select Gender", new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Gender, null, new { @class = "text-danger" })
+        </div>
+
+        
+        <input type="submit" value="Submit" />
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+﻿@model Employee
+
+<tr>
+    <td>@Model.Name</td>
+    <td>@Model.Email</td>
+    <td>@Model.Salary</td>
+    <td>@Model.Gender</td>
+    <td>
+        @Html.Partial("_ControlsPartial", Model.Id)
+    </td>
+</tr>
